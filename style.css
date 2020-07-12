@@ -1,0 +1,29 @@
+h1 {text-align: center;}
+[class*="col-" ] {float: left;}
+.row:after{content: "";clear: both;display: block;}
+.col-md-3 {width: 25%;}  
+.col-md-6 {
+    width: 50%; 
+    border-left: 1px solid black;
+    border-right: 1px solid black; 
+    padding: 10px; 
+    box-sizing: border-box;
+}  
+h3 {text-align: center;}
+input {display: block; margin: 10px auto;}
+.footer div {
+    float: left;
+    width: 25%;
+    border: 1px solid black;
+    margin: 0 -1px;
+}
+.footer::after{content: "";clear: both;display: block;}
+a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+    background-color: #ccc;
+}
